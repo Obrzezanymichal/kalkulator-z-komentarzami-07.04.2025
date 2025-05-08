@@ -1,10 +1,8 @@
 # Kółko i krzyżyk - README - Jakub Gniewkowski
 To prosty skrypt, który umożliwia grę w kółko i krzyżyk dla dwóch osób.
 
-## Jak grać?
-Po uruchomieniu skryptu ujawi się plansza 3x3 Gracze na zmianę ustawiają swoje znaki ( X lub O ),
-a w przypadku wygranej gra informuje o tym zwracając komunikat kto jest zwycięzcą oraz stawia czerwoną linię na polach, na których zostały spełnione wymogi wygranej.
-
+## Opis
+To będzie krótki opis skryptu gry kółko i krzyżyk. Na samym końcu dowiesz sie jak grac.
 ## Jakie funkcje są w tym skrypcie?
 
 - **handleCellClick(event)** - Obsługue kliknięcie w pole. Sprawdza wygraną, remis oraz zmiane gracza, na dodatek zmienia turę do odpowiedniego gracza po kliknięciu.
@@ -22,3 +20,8 @@ a w przypadku wygranej gra informuje o tym zwracając komunikat kto jest zwycię
 - __*currentPlayer*__ - Zmienna, która wyznacza danego gracza.
 - __*winningCombo*__ - Tablica, która zawiera zwycięzkie kombinacje.
 - __*resertBtn*__ - Element HTML, w którym jest przycisk resetowania gry
+
+
+## Jak grać?
+Po uruchomieniu skryptu ujawi się plansza 3x3 Gracze na zmianę ustawiają swoje znaki ( X lub O ),
+a w przypadku wygranej gra informuje o tym zwracając komunikat kto jest zwycięzcą oraz stawia czerwoną linię na polach, na których zostały spełnione wymogi wygranej.
